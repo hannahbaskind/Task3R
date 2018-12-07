@@ -18,7 +18,7 @@
 
 ; enable keyboard interrupts
 
-	LD R0, KBIEN
+	LD R0, KBIEN ;keyboard interrupt
 	STI R0, KBSR
 
 
