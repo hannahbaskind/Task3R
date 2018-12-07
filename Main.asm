@@ -24,7 +24,7 @@
 
 ; start of actual program
 	
-	LD R1, LETTER
+	LD R1, LETTER ; R1 gets the letter
 	AND R2, R2, 0
 	STR R2, R1, #0
 HERE	LDR R0, R1, 0
