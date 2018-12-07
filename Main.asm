@@ -19,7 +19,7 @@
 ; enable keyboard interrupts
 
 	LD R0, KBIEN ;keyboard interrupt
-	STI R0, KBSR
+	STI R0, KBSR ; R0 goes in KBSR
 
 
 ; start of actual program
