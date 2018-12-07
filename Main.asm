@@ -12,7 +12,7 @@
 
 ; set up the keyboard interrupt vector table entry
 
-	LD R0, KBISR
+	LD R0, KBISR ;set up KB IV
 	STI R0, KBIVE 
 
 
